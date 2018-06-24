@@ -1,6 +1,6 @@
 from tensorflow.examples.tutorials.mnist import input_data
 
-# 载入MNIST数据集，如果指定目录没有数据集，则会从网络上下载
+# 载入MNIST数据集，如果指定目录没有数据集，则会从网络上下载.
 mnist = input_data.read_data_sets("./MNIST_data/", one_hot=True)
 
 # 打印 Training data size
